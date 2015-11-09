@@ -1,0 +1,41 @@
+*{
+	padding: 0;
+	margin: 2px;	
+	
+}
+.masthead{
+	background-color: #76687F;
+	width: 100%;
+}
+.main{
+	background-color: #ECD0FF;
+	max-height: 100%;
+	max-width: 100%:
+}
+h1{
+	font-size: 50px;
+	
+}
+p{
+	font-size: 25px;
+}
+
+.formbox{
+	
+padding: 2rem;
+}
+label{
+	font-size: 20px;
+}
+input{
+	font-size: 15px;
+}
+@media all and (max-width: 60em) and (min-width: 35em){
+	
+	
+}
+@media all and (min-width: 60em){
+	
+}
+	
+
