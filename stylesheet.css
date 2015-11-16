@@ -1,41 +1,134 @@
+/* Colorscheme *//*
+#76687F
+#FFFFFF
+#ECD0FF
+#7F7F7F
+#BDA6CC
+*/
+@import url(https://fonts.googleapis.com/css?family=Crimson+Text);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
 *{
-	padding: 0;
-	margin: 2px;	
+    padding: 0;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: #ECD0FF;
+    font-family: 'Open Sans', sans-serif;
 	
 }
+form {
+    padding: 1rem;
+    }
+
+h1, p {
+        text-align: center;
+        font-family: 'Crimson Text', serif;
+        color: #FFFFFF;
+    }
 .masthead{
-	background-color: #76687F;
-	width: 100%;
-}
-.main{
-	background-color: #ECD0FF;
-	max-height: 100%;
-	max-width: 100%:
-}
-h1{
-	font-size: 50px;
-	
-}
-p{
-	font-size: 25px;
+        background-color: #76687F;
+        color: #FFFFFF;
+        text-align: center;
+        padding: 1rem;
+    }
+    
+label {
+    width: 50%;
+    color: #FFFFFF;
 }
 
-.formbox{
-	
-padding: 2rem;
-}
-label{
-	font-size: 20px;
-}
-input{
-	font-size: 15px;
-}
-@media all and (max-width: 60em) and (min-width: 35em){
-	
-	
-}
-@media all and (min-width: 60em){
-	
-}
-	
 
+@media (max-width: 35em)
+{
+  main
+  {
+    -webkit-column-count: 1;
+    -moz-column-count: 1;
+    column-count: 1;
+  }
+  .form
+  {
+    width: 100%;
+    padding: 1rem;
+  }
+  input
+  {
+    font-size: 12px;
+    width: 100%;
+  }
+  label
+  {
+    display: none;
+  }
+}
+
+@media (min-width: 35em) and (max-width: 60em)
+{
+  .form
+  {
+    width: 45%;
+ 	padding: 1rem;
+  }
+  .username , .website
+  {
+    float: left;
+  }
+  .email, .password
+  {
+    float: right;
+  }
+  label
+  {
+	font-size: 14px;
+    width: 100%;
+  }
+  input
+  {
+	font-size: 14px;
+    width: 100%;
+  }
+  #submit
+  {
+	margin-left: 15px;
+    width: 12rem;
+    float: left;
+  }
+}
+
+@media (min-width: 60em)
+{
+  .form
+  {
+    width: 45%;
+   	padding: 1rem;
+  }
+  .username, .website
+  {
+    float: left;
+  }
+  .email, .password
+  {
+    float: right;
+  }
+  label
+  {
+	font-size:  14px;
+    float:left;
+    width: 10%
+  }
+  input
+  {
+	font-size: 14px;
+    float:right;
+    width: 80%;
+  }
+  #submit
+  {
+	margin-left: 12px;
+    width: 15%;
+    float: left;
+  }
+}
