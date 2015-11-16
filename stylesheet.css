@@ -40,15 +40,8 @@ label {
     color: #FFFFFF;
 }
 
-
 @media (max-width: 35em)
 {
-  main
-  {
-    -webkit-column-count: 1;
-    -moz-column-count: 1;
-    column-count: 1;
-  }
   .form
   {
     width: 100%;
@@ -63,6 +56,7 @@ label {
   {
     display: none;
   }
+	
 }
 
 @media (min-width: 35em) and (max-width: 60em)
