@@ -56,9 +56,12 @@ label {
   {
     display: none;
   }
-	
+#submit
+	{
+		width: 12rem;
+		margin-left: 15px;
+	}
 }
-
 @media (min-width: 35em) and (max-width: 60em)
 {
   .form
